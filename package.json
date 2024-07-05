@@ -1,7 +1,7 @@
 {
-  "name": ":package_name",
+  "name": "@conquest/flash",
   "version": "0.0.1",
-  "description": ":package_description",
+  "description": "Retrieve and add flash messages to your inertia application",
   "keywords": [],
   "scripts": {
     "dev": "vite",
@@ -10,30 +10,31 @@
     "patch": "npm version patch --no-git-tag-version",
     "minor": "npm version minor --no-git-tag-version",
     "major": "npm version major --no-git-tag-version",
-    "release": "npm run build && npm publish",
-    "init": "npx node ./init.js && npm i"
+    "release": "npm run build && npm publish"
   },
-  "author": ":package_author",
+  "author": "Joshua Wallace",
   "repository": {
     "type": "git",
-    "url": "https://github.com/:package_username/:package_name.git"
+    "url": "https://github.com/jdw5/conquest-flash-client.git"
   },
-  "homepage": "https://github.com/:package_username/:package_name#readme",
+  "homepage": "https://github.com/jdw5/conquest-flash-client#readme",
   "files": [
     "dist"
   ],
   "type": "module",
-  "main": "./dist/:package_name.umd.cjs",
-  "module": "./dist/:package_name.js",
+  "main": "./dist/conquest.umd.cjs",
+  "module": "./dist/conquest.js",
   "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/:package_name.js",
-      "require": "./dist/:package_name.umd.cjs"
+      "import": "./dist/conquest.js",
+      "require": "./dist/conquest.umd.cjs"
     }
   },
   "peerDependencies": {
-    "axios": "^1.2.0"
+    "@inertiajs/vue3": "^1.0.0",
+		"axios": "^1.2.0",
+		"vue": "^3.x"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.2",

@@ -1,24 +1,24 @@
-# :package_title
-[![npm version](https://badge.fury.io/js/:package_name.svg)](https://badge.fury.io/js/:package_name)
+# Conquest Flash
+[![npm version](https://badge.fury.io/js/conquest.svg)](https://badge.fury.io/js/conquest)
 
-:package_description
+Retrieve and add flash messages to your inertia application
 
 ## Installation
 You can install the package via npm:
 
 ```bash
-npm i :package_name
+npm i conquest
 ```
 
 ## Usage
 
 ```javascript
-import * from ':package_name';
+import * from 'conquest';
 ```
 
 ## Credits
 
-- [:package_author](https://github.com/:package_username)
+- [Joshua Wallace](https://github.com/jdw5)
 - [All Contributors](../../contributors)
 
 ## License
