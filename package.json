@@ -1,7 +1,10 @@
 {
-  "name": "@conquest/flash",
-  "version": "0.0.1",
+  "name": "conquest-flash",
+  "version": "0.1.0",
   "description": "Retrieve and add flash messages to your Inertia application",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "scripts": {
     "dev": "vite",
