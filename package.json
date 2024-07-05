@@ -19,8 +19,7 @@
   },
   "homepage": "https://github.com/jdw5/conquest-flash-client#readme",
   "files": [
-    "dist",
-    "types"
+    "dist"
   ],
   "type": "module",
   "main": "./dist/index.umd.cjs",
