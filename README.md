@@ -7,19 +7,18 @@ Retrieve and add flash messages to your inertia application
 You can install the package via npm:
 
 ```bash
-npm i conquest
+npm i @conquest/flash
 ```
 
 ## Usage
 
 ```javascript
-import * from 'conquest';
+import { useToast, useBanner } from '@conquest/flash';
 ```
 
 ## Credits
 
 - [Joshua Wallace](https://github.com/jdw5)
-- [All Contributors](../../contributors)
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
